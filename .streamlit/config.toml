@@ -344,9 +344,9 @@
 
 [theme]
 #base = "light"
-primaryColor = "#fffdf5"
+primaryColor = "#ffce08"
 font = "monospace"
-backgroundColor="fffefa"
+backgroundColor="fffdf5"
 secondaryBackgroundColor="f0f2f6"
 textColor="31333f"
 
