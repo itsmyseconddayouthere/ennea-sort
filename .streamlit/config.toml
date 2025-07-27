@@ -323,7 +323,7 @@
 # 
 # Default: whatever value is set in server.port.
 # serverPort = 8501
-# serverPort = 8503
+serverPort = 8503
 
 
 [mapbox]
