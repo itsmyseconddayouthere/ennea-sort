@@ -210,7 +210,7 @@
 # The port where the server will listen for browser connections.
 # 
 # Default: 8501
-port = 8501
+# port = 8501
 
 # The base path for the URL where Streamlit should be served from.
 # 
@@ -343,7 +343,7 @@ port = 8501
 
 [theme]
 base = "light"
-primaryColor = "#ffea4b"
+primaryColor = "#ffeb45"
 font = "monospace"
 
 # The preset Streamlit theme that your custom theme inherits from.
