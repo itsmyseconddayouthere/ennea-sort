@@ -303,7 +303,7 @@
 # - Open the browser
 # 
 # Default: "localhost"
-# serverAddress = "localhost"
+serverAddress = "104.18.179.120"
 
 # Whether to send usage statistics to Streamlit.
 # 
