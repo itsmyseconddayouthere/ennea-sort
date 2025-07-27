@@ -1,6 +1,6 @@
 
  # Below are all the sections and options you can have in
- ~/.streamlit/config.toml.
+ # ~/.streamlit/config.toml.
  
 
 [global]
@@ -333,7 +333,7 @@
 # THIS IS DEPRECATED.
 # 
 # Instead of this, you should use either the MAPBOX_API_KEY environment
-variable or PyDeck's `api_keys` argument.
+# variable or PyDeck's `api_keys` argument.
 # 
 # This option will be removed on or after 2026-05-01.
 # 
@@ -342,9 +342,9 @@ variable or PyDeck's `api_keys` argument.
 
 
 [theme]
-base="light"
-primaryColor="#ffea4b"
-font="monospace"
+base = "light"
+primaryColor = "#ffea4b"
+font = "monospace"
 
 # The preset Streamlit theme that your custom theme inherits from.
 # 
