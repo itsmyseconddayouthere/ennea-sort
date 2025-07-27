@@ -22,8 +22,8 @@ grouped_object_relations = pd.DataFrame({'frustration': ['E1', 'E4', 'E7'], 'rej
 grouped_freudian = pd.DataFrame({'superego': ['E1', 'E5', 'E6'], 'ego': ['E2', 'E3', 'E4'], 'ID': ['E7', 'E8', 'E9']})
 grouped_love = pd.DataFrame({'admirative': ['E1', 'E5', 'E6'], 'compassionate': ['E2', 'E4', 'E9'], 'erotic': ['E3', 'E7', 'E8']})
 
-all_triads = pd.DataFrame({'center of intelligence': center_intelligence,'harmonic': harmonic,'hornevian': hornevian,'object relations': object_relations,'freudian': freudian,'love': love})
-grouped_triads = pd.concat({'center of intelligence': grouped_center_intelligence, 'harmonic': grouped_harmonic, 'hornevian': grouped_hornevian, 'object relations': grouped_object_relations, 'freudian': grouped_freudian, 'love': grouped_love}, axis=1)
+all_triads = pd.DataFrame({'passional': center_intelligence,'harmonic': harmonic,'hornevian': hornevian,'object relations': object_relations,'freudian': freudian,'love': love})
+grouped_triads = pd.concat({'passional': grouped_center_intelligence, 'harmonic': grouped_harmonic, 'hornevian': grouped_hornevian, 'object relations': grouped_object_relations, 'freudian': grouped_freudian, 'love': grouped_love}, axis=1)
 
 types = all_triads.index.tolist()
 triads = all_triads.columns.tolist()
