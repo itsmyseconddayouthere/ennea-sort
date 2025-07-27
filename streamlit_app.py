@@ -6,7 +6,7 @@ if 'turn' not in st.session_state:
 
 def highlight(df):
     is_duplicate = df.duplicated(keep=False)
-    return ['background-color: ##fffce6' if trait else '' for trait in is_duplicate]
+    return ['background-color: #f0f2f6' if trait else '' for trait in is_duplicate]
 
 center_intelligence = pd.Series(['gut', 'heart', 'heart', 'heart', 'head', 'head', 'head', 'gut', 'gut'], index=['E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 'E9'])
 harmonic = pd.Series(['competency', 'positive-outlook', 'competency', 'reactive', 'competency', 'reactive', 'positive-outlook', 'reactive', 'positive-outlook'], index=['E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 'E9'])
