@@ -56,7 +56,7 @@ elif choice == 2:
         st.dataframe(grouped_triads[selected_triad], hide_index=True)
 
 elif choice == 3:
-    num_types = st.slider("choose # of types", 2, 3, 4, 5, 6, 7, 8)
+    num_types = st.slider("choose # of types to compare", 2, 8)
     selected = []
     for i in range(num_types):
         type_select = st.selectbox(f"choose type {i+1}", types, key=f"compare_type_{i}")

@@ -346,7 +346,7 @@
 #base = "light"
 primaryColor = "#ffeb45"
 font = "monospace"
-backgroundColor="ffffff"
+backgroundColor="fffefa"
 secondaryBackgroundColor="f0f2f6"
 textColor="31333f"
 
