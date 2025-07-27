@@ -303,7 +303,7 @@
 # - Open the browser
 # 
 # Default: "localhost"
-serverAddress = "https://potential-trout-jjw5797r6pg6cjgpj-8503.app.github.dev/"
+# serverAddress = "localhost"
 
 # Whether to send usage statistics to Streamlit.
 # 
@@ -323,6 +323,7 @@ serverAddress = "https://potential-trout-jjw5797r6pg6cjgpj-8503.app.github.dev/"
 # 
 # Default: whatever value is set in server.port.
 # serverPort = 8501
+# serverPort = 8503
 
 
 [mapbox]
