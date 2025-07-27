@@ -343,9 +343,12 @@
 
 
 [theme]
-base = "light"
+#base = "light"
 primaryColor = "#ffeb45"
 font = "monospace"
+backgroundColor="ffffff"
+secondaryBackgroundColor="f0f2f6"
+textColor="31333f"
 
 # The preset Streamlit theme that your custom theme inherits from.
 # 
